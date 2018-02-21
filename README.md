@@ -6,11 +6,13 @@ Create a basic testing framework that uses an assertion library (like `chai`) to
 
 In the `mate.js` file, create the necessary code such that you export two functions `describe()` and `it()`. `describe` should be used as a way to create a block of tests, `it` should contain the test with an assertion.
 
-When you are done, the report that is printed should look as follows, notice the summary of results are the of the output.
+When you are done, the report that is printed by running `node index.js` should look as follows
 
 ![](./completed.png)
 
 Make sure to read over the [Limitations](#limitations) below.
+
+You can use a library named `chalk` to color the output in the terminal. Also, you can find the **checkmark** and **cross mark** by searching for their unicode number.
 
 ## To install
 
