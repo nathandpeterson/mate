@@ -33,7 +33,7 @@ There can only be one `describe` function, and they cannot be nested. This limit
 
 An `it` function needs to contain an assertion, and cannot be nested.
 
-## What assertion library do
+## What does an assertion library do
 
 An assertion library is a set of tools to check if to values, whether primitives or deeply nested reference types, are equal. They work by leveraging the `try catch` programming structure built into javascript.
 
