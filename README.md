@@ -6,9 +6,23 @@ Create a basic testing framework that uses an assertion library (like `chai`) to
 
 In the `mate.js` file, create the necessary code such that you export two functions `describe()` and `it()`. `describe` should be used as a way to create a block of tests, `it` should contain the test with an assertion.
 
-When you are done, the report that is printed should look as follows:
+When you are done, the report that is printed should look as follows, notice the summary of results are the of the output.
 
 ![](./completed.png)
+
+Make sure to read over the (Limitations)[#Limitations] below.
+
+## To install
+
+```
+npm install
+```
+
+## To run
+
+```
+node index.js
+```
 
 ## Limitations
 There can only be one `describe` function, and they cannot be nested. This limitation is necessary because otherwise you'll need much more complicated tools to solve the problem.
@@ -52,9 +66,11 @@ Will print out the following object
 }
 ```
 
+The properties of this object that can be useful in reporting differences between expected and actual can be found in the argument that `catch` receives.
 
+## Possible Solution
+
+One way to solve this problem is located in the `solution` branch on this repo. If you need a few hints on how to get started, please take a look at it.
 
 ## Stretch goals
-* Add pending tests
-* Allow for multiple `describe` block
-* Allow for `describe` blocks to be nested
+* Add pending tests (xdescribe, xit)
