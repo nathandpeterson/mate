@@ -27,13 +27,7 @@ try{
   expect(1).to.equal(2)
 }
 catch(e){
-  if (e instanceof AssertionError) {
-    // Output expected AssertionErrors.
-    console.log(e);
-  } else {
-    // Output unexpected Errors.
-    console.log(e);
-  }
+  console.log(e);
 }
 ```
 
