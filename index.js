@@ -47,7 +47,7 @@ describe('tests to test the framework', function(){
     expect([1,2,3,4]).to.eql([1,2,3,4])
   })
 
-  it('failing assertion 5', function(){
+  it('failing assertion 6', function(){
     expect([1,2,3,4]).to.eql([1,2,3])
   })
 
@@ -55,7 +55,7 @@ describe('tests to test the framework', function(){
     expect({a:1,b:2,c:3}).to.eql({a:1,b:2,c:3})
   })
 
-  it('failing assertion 5', function(){
-    expect({a:1,b:2,c:3}).to.equal({a:1,b:2})
+  it('failing assertion 7', function(){
+    expect({a:1,b:2,c:3}).to.eql({a:1,b:2})
   })
 })
