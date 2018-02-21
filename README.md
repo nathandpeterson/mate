@@ -10,7 +10,7 @@ When you are done, the report that is printed should look as follows, notice the
 
 ![](./completed.png)
 
-Make sure to read over the [Limitations](#Limitations) below.
+Make sure to read over the [Limitations](#markdown-header-limitations) below.
 
 ## To install
 
